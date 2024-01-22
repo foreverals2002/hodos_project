@@ -4,9 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>눈돌이를 구하라!</title>
 </head>
 <body>
+    <form action="./final_password" method="post">
+        <label for="final_password">최종 비밀번호: </label><br>
+        <input type="text" id="final_password" name="final_password"><br>
+        <input type="submit" value="전송">
+    </form>
     <p style="font-size: 60px; color: blue">진행 상황</p>
     <p style="font-size: 30px; color: blue;"><%=team1.name%> 미션1: <%=team1.success[0]%> 미션2: <%=team1.success[1]%> 미션3: <%=team1.success[2]%></p>
     <p style="font-size: 30px; color: blue;"><%=team2.name%> 미션1: <%=team2.success[0]%> 미션2: <%=team2.success[1]%> 미션3: <%=team2.success[2]%></p>
