@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.form_section {
+    
+}
+
+.teamname_container {
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+.final_hint_section {
+    margin-top: 50px;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: white;
+    margin-top: 50px;
+}
+
+.team_status {
+    margin-top: 50px;
+}
+
+.status_title {
+    font-size: 30px;
+}
+
+.checkmark {
+
+}
