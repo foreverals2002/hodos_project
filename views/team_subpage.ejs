@@ -7,15 +7,18 @@
     <title>눈돌이를 구하라!</title>
 </head>
 <body>
+    <p><%=team.name%> 페이지</p>
     <form action="./<%=team.id%>" method="post">
         <label for="password">미션 비밀번호: </label><br>
         <input type="text" id="password" name="password"><br>
         <input type="submit" value="전송">
     </form>
-    <a href="./team1_final_hint" style="font-size: 60px;">마지막 힌트 얻기 (미션 1~3 완료 필수)</a>
+    <a href="./<%=team.id%>_final_hint" style="font-size: 60px;">마지막 힌트 얻기 (미션 1~3 완료 필수)</a>
     <p style="font-size: 60px; color: blue">진행 상황</p>
     <p style="font-size: 30px; color: blue;">미션1: <%=team.success[0]%></p>
     <p style="font-size: 30px; color: blue;">미션2: <%=team.success[1]%></p>
+    <p><%-mission2_desc%></p>
     <p style="font-size: 30px; color: blue;">미션3: <%=team.success[2]%></p>
+    <p><%=mission3_desc%></p>
 </body>
 </html>
