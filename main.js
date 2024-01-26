@@ -12,25 +12,24 @@ let cooltime = 1;
 let final_answer = "예수그리스도안에우린하나";
 
 let mission2_description =
-  "미션2 가이드:<br>초곡교회 곳곳에 붙어있는 미니임무를 찾아 수행하시오.<br> 조해창 요원에게 임무 완료 검사를 받으면 스무고개 질문권을 받을 수 있습니다. <br> 질문권은 위수환 요원에게 사용하십시오. <br> 스무고개의 답이 Mission2의 암호입니다. <br> 단, 각 조마다 스무고개 답은 다르니 주의하십시오.";
-let mission3_description =
-  "미션3 가이드:<br>조해창 요원을 찾아가 미션3를 받으시오.";
+  "미션2 가이드:<br>초곡교회 곳곳에 붙어있는 미니임무를 찾아 수행하시오.<br> J 요원에게 임무 완료 검사를 받으면 스무고개 질문권을 받을 수 있습니다. <br> 질문권은 W 요원에게 사용하십시오. <br> 스무고개의 답이 Mission2의 암호입니다. <br> 단, 각 조마다 스무고개 답은 다르니 주의하십시오.";
+let mission3_description = "미션3 가이드:<br>J 요원을 찾아가 미션3를 받으시오.";
 
 let passwords_dict = {
   team1: {
     first: "1password1",
-    second: "1password2",
-    third: "1password3",
+    second: "낙동강",
+    third: "0212",
   },
   team2: {
     first: "2password1",
-    second: "2password2",
-    third: "2password3",
+    second: "나폴레옹",
+    third: "7004",
   },
   team3: {
     first: "3password1",
-    second: "3password2",
-    third: "3password3",
+    second: "각도기",
+    third: "0839",
   },
 };
 
