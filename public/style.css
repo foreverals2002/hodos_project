@@ -1,11 +1,45 @@
-body {
-    background-color: black;
+html {
+    background-image: url("./military.jpg");
+    background-size: 100%;
     color: white;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+body {
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+}
+
+form {
+    margin-top: 30px;
 }
 
 .form_section {
-    
+    margin-top: 40px;
+}
+
+.form-label {
+    font-size: 40px;
+}
+
+.password_bar {
+    margin-top: 20px;
+    width: 40%;
+    font-size: 30px;
+    text-align: center;
+}
+
+.submit_button {
+    margin-top: 20px;
+    width: 15%;
+    font-size: 20px;
+    text-align: center;
 }
 
 .teamname_container {
@@ -22,12 +56,28 @@ a:link, a:visited, a:hover, a:active {
     margin-top: 50px;
 }
 
-.team_status {
-    margin-top: 50px;
+.status_title {
+    font-size: 40px;
+    margin-bottom: 20px;
 }
 
-.status_title {
+.team_name {
     font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.status_detail {
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: red;
+}
+
+.mission_explanation {
+    background-color: rgba(0,0,0, 0.8);
+    
+    color: rgb(255,255,255,0.7);
 }
 
 .checkmark {

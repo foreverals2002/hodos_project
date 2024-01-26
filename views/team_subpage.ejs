@@ -5,17 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="/style.css">
-    <title>눈돌이를 구하라!</title>
+    <title>남흥 대테러 작전 - <%=team.name%></title>
 </head>
 <body>
     <div class="teamname_container">
-        <p><%=team.name%> 페이지</p>
+        <p>TEAM <%=team.name%></p>
     </div>
     <div class="form_section">
         <form action="./<%=team.id%>" method="post">
-            <label for="password">미션 비밀번호: </label><br>
-            <input type="text" id="password" name="password"><br>
-            <input type="submit" value="전송">
+            <label class="form-label" for="password">미션 비밀번호: </label><br>
+            <input class="password_bar" type="text" id="password" name="password"><br>
+            <input class="submit_button" type="submit" value="전송">
         </form>
     </div>
     <div class="final_hint_section">
@@ -23,11 +23,11 @@
     </div>
     <div class="team_status">
         <p class="status_title">진행 상황</p>
-        <p>미션 1 : <%=team.success[0]%></p>
-        <p>미션 2 : <%=team.success[1]%></p>
-        <p><%-mission2_desc%></p>
-        <p>미션 3 : <%=team.success[2]%></p>
-        <p><%-mission3_desc%></p>
+        <p class="status_detail">미션 1 : <%=team.success[0]%></p>
+        <p class="status_detail">미션 2 : <%=team.success[1]%></p>
+        <p class="mission_explanation"><%-mission2_desc%></p>
+        <p class="status_detail">미션 3 : <%=team.success[2]%></p>
+        <p class="mission_explanation"><%-mission3_desc%></p>
     </div>
 </body>
 </html>
